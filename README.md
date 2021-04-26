@@ -1,24 +1,11 @@
-# README
+# RORCommerce
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Run these commands sequentially after cloning the repo...
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* `bundle update`
+* `bundle install`
+* `sudo apt-get install imagemagick`
+* `bundle exec rails g spree:install --user_class=Spree::User`
+* `bundle exec rails g spree:auth:install`
+* `bundle exec rails g spree_gateway:install`
+* `rails s`
